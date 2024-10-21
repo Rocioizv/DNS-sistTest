@@ -19,9 +19,16 @@ options {
 	// you will need to update your keys.  See https://www.isc.org/bind-keys
 	//========================================================================
 	dnssec-validation yes;
-
+	
+	listen-on { 192.168.57.103; };
 	listen-on-v6 { none; };
+	
+	acl autorizados {
+		127.0.0.0/8;
+		192.168.57.103;
+	};
 
-
-
+	options {
+		allow-recursion { autorizados; };
+	}
 };

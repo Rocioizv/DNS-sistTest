@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
       apt-get update
       apt-get install -y bind9 dnsutils
      
-      cp /etc/bind/named.conf.options /vagrant/tierra-conf/
+      cp /etc/bind/named.conf.options /vagrant/tierra-conf/named.conf.options
       
       SHELL
   end
