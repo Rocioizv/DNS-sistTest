@@ -9,5 +9,6 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
 
     2.1 Necesito copiar los archivos de las máquinas para que se puedan subir a GitHub
     ![Texto alternativo](images/copiarArchivos.png)
+        (Aquí solo copié un archivo)
 
 3. 

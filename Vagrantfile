@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     
     apt-get update
     apt-get install -y bind9 dnsutils
-    # sudo cp /vagrant/venus-conf/named.conf.local /etc/bind/named.conf.local
+    cp /etc/bind/named.conf.local /vagrant/venus-conf/
 
     SHELL
 
