@@ -7,4 +7,7 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
 2. Una vez creadas las máquinas Venus y Tierra con bullseye64
     ![Texto alternativo](images/confMaquinas.png)
 
-    2.1 
+    2.1 Necesito copiar los archivos de las máquinas para que se puedan subir a GitHub
+    ![Texto alternativo](images/copiarArchivos.png)
+
+3. 
