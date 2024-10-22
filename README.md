@@ -51,3 +51,28 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
     10. El equipo marte.sistema.test. actuará como servidor de correo del dominio de correo
         sistema.test.
           ![image](/images/correo.png)
+
+
+    COMPROBACIONES
+    A. Comprobar los registros A
+         ![image](/images/c1.png)
+         
+    B. Comprobar resolución inversa
+         ![image](/images/c2.png)
+         
+    C. Comprobar alias
+         ![image](/images/c3.png)
+         
+    D. Comprobar los servidores NS
+         ![image](/images/c4.png)
+         
+    E. Comprobar el servidor MX
+         ![image](/images/c5.png)
+         
+    F. Comprobar la transferencia de zona
+         ![image](/images/c6.png)
+         
+    G. Comprobar la resolución en maestro y esclavo
+         ![image](/images/c7t.png)
+         ![image](/images/c7v.png)
+         
