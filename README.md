@@ -39,9 +39,15 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
 
         b. Zona indirecta
         ![image](/images/tiempo2.png)
-<<<<<<< HEAD
 
     7. Reenviar consultas que no pueda resolver al servidor de OpenDNS (208.67.222.222).
         ![image](/images/forwarder.png)
-=======
->>>>>>> e2d601036f1d44cde9a729a372baa82c679613da
+
+    8. a. ns1.sistema.test. será un alias de tierra.sistema.test.
+        b. ns2.sistema.test. será un alias de venus.sistema.test..
+    9. mail.sistema.test. será un alias de marte.sistema.test.
+         ![image](/images/alias.png)
+
+    10. El equipo marte.sistema.test. actuará como servidor de correo del dominio de correo
+        sistema.test.
+          ![image](/images/correo.png)
