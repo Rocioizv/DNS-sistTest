@@ -32,3 +32,14 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
     5. Configuración servidor esclavo    
         a. En el fichero named.conf.local. También índica el maestro
         ![imagen](/images/esclavo1.png) 
+
+    6. Configurar el tiempo en caché de las respuestas negativas a dos horas
+        a. Zona directa
+        ![image](/images/tiempo.png)
+
+        b. Zona indirecta
+        ![image](/images/tiempo2.png)
+
+    7. Reenviar consultas que no se puedan resolver 
+        ![image](/images/forwarder.png)
+         
