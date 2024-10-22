@@ -1,0 +1,17 @@
+;
+; BIND reverse data file for local loopback interface
+;
+; Archivo zona inversa para 192.168.57.0/24
+$TTL	604800
+@	IN	SOA	tierra.sistema.test. admin.sistema.test. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	tierra.sistema.test.
+103	IN	PTR	tierra.sitetma.test.
+101 	IN	PTR	mercurio.sistema.test.
+102	IN	PTR	venus.sistema.test.
+104	IN	PTR	marte.sistema.test.
