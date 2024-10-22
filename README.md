@@ -39,6 +39,9 @@ La siguiente práctica tiene un servidor DNS maestro, otro esclavo con una zona 
 
         b. Zona indirecta
         ![image](/images/tiempo2.png)
+<<<<<<< HEAD
 
     7. Reenviar consultas que no pueda resolver al servidor de OpenDNS (208.67.222.222).
         ![image](/images/forwarder.png)
+=======
+>>>>>>> e2d601036f1d44cde9a729a372baa82c679613da
