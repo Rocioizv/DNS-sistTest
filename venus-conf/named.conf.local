@@ -17,3 +17,4 @@ zone "57.168.192.in-addr.arpa" {
     file "/var/cache/bind/192.168.57";
     masters { 192.168.57.103; };
 };
+

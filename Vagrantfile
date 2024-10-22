@@ -16,8 +16,8 @@ Vagrant.configure("2") do |config|
     
     apt-get update
     apt-get install -y bind9 dnsutils
-    cp /etc/bind/named.conf.local /vagrant/venus-conf/
 
+     sudo cp /vagrant/venus-conf/named.conf.local /etc/bind/named.conf.local 
     SHELL
 
   end
@@ -32,7 +32,10 @@ Vagrant.configure("2") do |config|
       apt-get update
       apt-get install -y bind9 dnsutils
      
-      cp /etc/bind/named.conf.options /vagrant/tierra-conf/named.conf.options
+      sudo cp /vagrant/tierra-conf/named.conf.options /etc/bind/named.conf.options
+      sudo cp /vagrant/tierra-conf/named.conf.local /etc/bind/named.conf.local
+      sudo cp /vagrant/tierra-conf/db.sistema.test /etc/bind/db.sistema.test
+      sudo cp /vagrant/tierra-conf/db.192.168.57 /etc/bind/db.192.168.57
       
       SHELL
   end
